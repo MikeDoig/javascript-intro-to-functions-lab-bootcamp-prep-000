@@ -1,5 +1,5 @@
-  var lowercase = "hello";
-  var uppercase = "HELLO";
+  // var lowercase = "hello";
+  // var uppercase = "HELLO";
   
 function shout(string) {
   return string.toUpperCase();
@@ -14,10 +14,10 @@ function logWhisper(string){
   console.log(string.toLowerCase());
 }
 function sayHiToGrandma(string){
-  console.log(string.toUpperCase(),uppercase)
-  if (string.toLowerCase() === lowercase)
+  // console.log(string.toUpperCase(),uppercase)
+  if (string.toLowerCase() === string)
   return ("I can\'t hear you!");
-  else if (string.toUpperCase() === uppercase)
+  else if (string.toUpperCase() === string)
   return ("YES INDEED!");
   else if (string == "I love you, Grandma.")
   return ("I love you, too.");
