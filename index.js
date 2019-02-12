@@ -1,5 +1,5 @@
-  var lowercase = "hello!";
-  var uppercase = "HELLO!";
+  var lowercase = "hello";
+  var uppercase = "HELLO";
   
 
 function shout(string) {
